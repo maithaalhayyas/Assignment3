@@ -17,7 +17,8 @@ int main(){
 	scanf("%d",&n2);
 
 	//Dynamically change the array to size n2
-	a1 = /* Fill in*/
+	 /* Fill in*/
+    a1 = (int*)realloc(a1,n2*sizeof(int));
 
 	//If the new array is a larger size, set all new members to 0. Reason: dont want to use uninitialized variables.
 
