@@ -26,6 +26,11 @@ int main(){
 	Fill
 	In
 	*/
+    if(n2>n1){
+            for(i=0;i<n2;i++){
+                a1[i]=0;
+            }
+        }
 	
 
 	for(i=0; i<n2;i++){
