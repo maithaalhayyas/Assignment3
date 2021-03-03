@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 //Sort an array A using insertion sort. Notice it is to be passed by reference.
-void sort(int* A, int n){
+void sort(int*A, int n){
 	int tmp;
 	int i;
 	int j;
@@ -29,8 +29,8 @@ int main(){
 	printf("Enter an integer n: ");
 	scanf("%d",&n);
 
-	//Array array. Change this to become a dynamic array through malloc.
-	int* array=(int*)malloc(n*sizeof(int));
+	//Array array. Change this to become a dynamic array through mall
+    int array[n];
 
 	//Assign each element in the array a random number between 0 and 31,999
 	int i;
