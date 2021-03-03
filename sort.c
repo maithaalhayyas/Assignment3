@@ -30,7 +30,7 @@ int main(){
 	scanf("%d",&n);
 
 	//Array array. Change this to become a dynamic array through mall
-    int array[n];
+    int* array=(int*)malloc(n*sizeof(int));
 
 	//Assign each element in the array a random number between 0 and 31,999
 	int i;
