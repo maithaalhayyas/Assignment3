@@ -11,18 +11,7 @@ int main(){
 	int n1=0;
 	scanf("%d",&n1);
 
-	//Create a new array of n1 ints
-    int* a1 = (int*)malloc(n1*sizeof(int));
-    int i;
-	for(i=0; i<n1; i++){
-		//Set each value in a1 to 100
-		/*Fill in*/=100
-		
-		//Print each element out (to make sure things look right)
-		printf("%d ",/*Fill in*/ );
-	}
-
-	//User specifies the new array size, stored in variable n2.
+	//Createstatus	//User specifies the new array size, stored in variable n2.
 	printf("\nEnter new array size: ");
 	int n2=0;
 	scanf("%d",&n2);
