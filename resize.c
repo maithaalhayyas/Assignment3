@@ -35,7 +35,7 @@ int main(){
 
 	for(i=0; i<n2;i++){
 		//Print each element out (to make sure things look right)
-		printf("%d ",/* Fill in */);
+        printf("%d ",/* Fill in */ a1[i]=0;);
 	}
 	printf("\n");
 	
