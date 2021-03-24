@@ -37,3 +37,5 @@ for (int x = 0; x < n; x++) {
  printf("%d ", *(array+x));
  }
 printf("\n");
+
+sort(array, n);
