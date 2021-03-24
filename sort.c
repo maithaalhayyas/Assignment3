@@ -9,3 +9,11 @@ int cur_elem, insert_index;
 for (int cur_index = 1; cur_index < array_size; cur_index++) {
  cur_elem = *(A+cur_index);
  insert_index = cur_index - 1;
+
+ while (insert_index >= 0 && cur_elem < *(A+insert_index)) {
+ *(A+insert_index+1) = *(A+insert_index);
+ insert_index -= 1;
+ }
+ *(A+insert_index+1) = cur_elem;
+ }
+}
