@@ -27,3 +27,7 @@ printf("Enter an integer n: ");
 scanf("%d", &n);
 
 int *array = malloc(n * sizeof(int));
+
+for (int i=0; i<n; i++) {
+ *(array+i) = rand() % 32000; // assigns random numbers
+ }
