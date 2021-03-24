@@ -21,3 +21,7 @@ for (int cur_index = 1; cur_index < array_size; cur_index++) {
 int main() {
 
 	srand(time(NULL));
+
+	int n;
+printf("Enter an integer n: ");
+scanf("%d", &n);
