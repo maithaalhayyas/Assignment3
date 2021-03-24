@@ -39,3 +39,13 @@ for (int x = 0; x < n; x++) {
 printf("\n");
 
 sort(array, n);
+
+printf("The sorted array is: ");
+for (int x = 0; x < n; x++) {
+ printf("%d ", *(array+x));
+ }
+printf("\n");
+free(array); //Making sure to free what I malloc! to release memory
+1
+return 0;
+} 
