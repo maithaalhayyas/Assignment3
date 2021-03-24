@@ -17,3 +17,7 @@ for (int cur_index = 1; cur_index < array_size; cur_index++) {
  *(A+insert_index+1) = cur_elem;
  }
 }
+
+int main() {
+
+	srand(time(NULL));
